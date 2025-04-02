@@ -58,3 +58,36 @@ let bignum = 3213424324923804n
 console.table([typeof(num), typeof(string), typeof(isLogin), typeof(temperature), typeof(state), typeof(bignum), typeof(myFunction)])
 
 
+//   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non - Primitive)
+// In Stack copy is given, In Heap reference is given
+
+
+// Stack example value only change in the copy
+let section  = "A"
+let new_section = section
+new_section = "B"
+console.log(section);
+console.log(new_section);
+
+
+// Heap example value change in the original variable
+
+let student1 = {
+    email : "user1@google.com"
+}
+
+let student2 =  student1
+ 
+
+
+student2.email = "user2@google.com"
+console.log(student1.email);
+console.log(student2.email);
+
+
+
+
+
+
