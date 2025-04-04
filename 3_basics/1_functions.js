@@ -50,7 +50,7 @@ function getValue(arr){
 
 const arr = [1, 2, 3, 4, 6];
 
-console.log(getValue(arr));
+console.log(getValue(arr ));
 
 
 
