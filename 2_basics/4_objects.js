@@ -69,6 +69,27 @@ console.log(arr[0].hasOwnProperty('name'));
 console.log(arr[0].hasOwnProperty('id'));
 
 
+const course= {
+    course_id : "123",
+    course_fee : 2000,
+    course_duration : "3 year"
+}
+
+// destructure of objects
+
+const {course_fee} = course;
+
+console.log(course_fee);
+
+// json
+
+{
+    "course_name": "js",
+    "fee": 2000,
+    "duration": 2
+}
+
+
 
 
 
