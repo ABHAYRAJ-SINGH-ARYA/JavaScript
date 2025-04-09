@@ -22,3 +22,19 @@
 // }
 
 
+
+// Maps
+
+// Maps can not be iterated through 
+// for in loop
+
+// const map = new Map()
+// map.set('IN', "India")
+// map.set('USA', "United States of America")
+// map.set('Fr', "France")
+
+// for (const key in map) {
+//      console.log(key);
+     
+// }
+

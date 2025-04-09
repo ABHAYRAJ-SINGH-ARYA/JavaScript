@@ -2,11 +2,16 @@
 
 // const coding = ["py", "Cpp", "js", "java", "C", "ruby"]
 
-// coding.forEach( function (val, index, arr){
-//     console.log(val, index, arr);
+// coding.forEach( function (val, index){
+//     console.log(val+" " + index);
     
 // })
 
+
+// coding.forEach((val) => {
+//     console.log(val);
+    
+// })
 
 
 // Objects in array
